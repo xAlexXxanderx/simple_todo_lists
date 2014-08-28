@@ -25,7 +25,7 @@ class Task
   
   property :id,           Serial,     :key => true
   property :name,         String,     :length => 1..50
-  property :status,       DateTime
+  property :status,       Boolean
   property :project_id,   Integer
 end
 
